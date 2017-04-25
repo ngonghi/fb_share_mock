@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.shareModule {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid #DCDCDC;
+    margin-top: 50px;
+}
+
+.moduleTitle {
+    background-color: #d6d5d5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.moduleTitle p {
+    font-weight: bold;
+}
+
+.moduleContent {
+    margin: 0 auto;
+    width: 560px;
+}
+
+.shareImage {
+    margin-top: 15px;
+}
+
+.imageBox {
+    width: 150px;
+    height: 100px;
+    background-color: #DCDCDC;
+    float: left;
+}
+
+.imageBox img {
+    width: 100px;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.imageDesc {
+	width: 390px;
+    float: right;
+}
+
+.imageDesc p {
+	font-weight: bold;
+}
+
+.shareTextContent {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.shareTextContent textarea {
+    max-width: 560px;
+    font-size: 13px;
+    color: #b5b0b0;
+    margin-top: 20px;
+}
+
+.shareButton {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.shareButton button {
+    background-color: #3b5998;
+    height: 45px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    box-shadow: 0px 4px 1px #0f0f5f;
+    border-radius: 3px 3px 5px 5px;
+    margin-top: 40px;
+}
+
+.shareButton button span {
+    margin-left: 8px;
+}
+
+.skipButton {
+    margin-bottom: 15px;
+    margin-right: 5px;
+    text-align: right;
+}
+
+.skipButton a {
+    font-size: 12px;    
+    text-decoration: none;
+
+}
